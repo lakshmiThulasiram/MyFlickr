@@ -8,7 +8,7 @@
 
 #import "MyFlickrCollectionViewController.h"
 
-#define URL_TO_CONNECT @"https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=a1bf2c7f3eb788b3312e1a639e324929&photoset_id=72157669724360221&user_id=141941008%40N03&format=json&nojsoncallback=1"
+#define URL_TO_CONNECT @"https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=fa30a96d7733d5b5e5a40efb5dfa660f&photoset_id=72157669724360221&user_id=141941008%40N03&format=json&nojsoncallback=1"
 
 @interface MyFlickrCollectionViewController ()
 

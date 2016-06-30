@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PhotoModel.h"
 #import "CollectionViewCell.h"
-#import "DownloadOperation.h"
 
-@interface MyFlickrCollectionViewController : UICollectionViewController<NSURLSessionDelegate,DowloadDelegate>
+@interface MyFlickrCollectionViewController : UICollectionViewController<NSURLSessionDelegate>
 
 @end
