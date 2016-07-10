@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "PhotoModel.h"
 #import "CollectionViewCell.h"
+#import "NetworkModel.h"
 
-@interface MyFlickrCollectionViewController : UICollectionViewController<NSURLSessionDelegate>
+@interface MyFlickrCollectionViewController : UICollectionViewController<NetworkDelegate>
+
+
 
 @end

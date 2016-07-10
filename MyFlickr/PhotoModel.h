@@ -11,7 +11,7 @@
 
 @interface PhotoModel : NSObject
 @property (nonatomic, strong) NSString *url;
-@property (nonatomic, assign) NSData *image;
+@property (nonatomic, assign) UIImage *image;
 @property (nonatomic, strong) NSString *photoID;
 @property (nonatomic, strong) NSString *server;
 @property (nonatomic, strong) NSString *farm;

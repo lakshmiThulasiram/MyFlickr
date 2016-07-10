@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08EB6DC31D326D4400DC651F /* NetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB6DC21D326D4400DC651F /* NetworkModel.m */; };
 		08F0A0951D23D22700440E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0A0941D23D22700440E62 /* main.m */; };
 		08F0A0981D23D22700440E62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0A0971D23D22700440E62 /* AppDelegate.m */; };
 		08F0A09E1D23D22700440E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F0A09C1D23D22700440E62 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08EB6DC11D326D4400DC651F /* NetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkModel.h; path = "../../../../../apple/development/MY TRIES/MyFlickr/MyFlickr/NetworkModel.h"; sourceTree = "<group>"; };
+		08EB6DC21D326D4400DC651F /* NetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkModel.m; path = "../../../../../apple/development/MY TRIES/MyFlickr/MyFlickr/NetworkModel.m"; sourceTree = "<group>"; };
 		08F0A0901D23D22700440E62 /* MyFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFlickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F0A0941D23D22700440E62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08F0A0961D23D22700440E62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				08F0A0CD1D23F3D100440E62 /* PhotoModel.m */,
 				08F0A0D01D24313900440E62 /* CollectionViewCell.h */,
 				08F0A0D11D24313900440E62 /* CollectionViewCell.m */,
+				08EB6DC11D326D4400DC651F /* NetworkModel.h */,
+				08EB6DC21D326D4400DC651F /* NetworkModel.m */,
 			);
 			path = MyFlickr;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EB6DC31D326D4400DC651F /* NetworkModel.m in Sources */,
 				08F0A0D21D24313900440E62 /* CollectionViewCell.m in Sources */,
 				08F0A0CE1D23F3D100440E62 /* PhotoModel.m in Sources */,
 				08F0A0C81D23E66300440E62 /* MyFlickrCollectionViewController.m in Sources */,
@@ -426,11 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = MyFlickr/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MyFlickr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msf.MyFlickr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd4f2704-cf44-4549-b9bf-4e8c928ae75c";
 			};
 			name = Debug;
 		};
@@ -438,11 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = MyFlickr/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MyFlickr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msf.MyFlickr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd4f2704-cf44-4549-b9bf-4e8c928ae75c";
 			};
 			name = Release;
 		};
